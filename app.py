@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, redirect, url_for
 import csv
 import os
-from datetime import datetime
 import smtplib
 from email.mime.text import MIMEText
+from datetime import datetime
 
 app = Flask(__name__)
 
